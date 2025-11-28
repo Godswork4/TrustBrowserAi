@@ -1,0 +1,31 @@
+# Global ignore for full workspace
+node_modules/
+dist/
+build/
+out/
+.vite/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Git
+.gitmodules
+
+# Env and secrets
+.env
+.env.*
+**/.env*
+
+# Electron artifacts
+*.asar
+release/
+electron-packager/
